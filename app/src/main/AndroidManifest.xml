@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pihash.com.routine" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sat"
+            android:label="@string/title_activity_sat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddRoutine"
+            android:label="@string/title_activity_add_routine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Week"
+            android:label="@string/title_activity_week" >
+        </activity>
+        <activity
+            android:name=".Sunday"
+            android:label="@string/title_activity_sunday" >
+        </activity>
+        <activity
+            android:name=".Monday"
+            android:label="@string/title_activity_monday" >
+        </activity>
+        <activity
+            android:name=".Tuesday"
+            android:label="@string/title_activity_tuesday" >
+        </activity>
+        <activity
+            android:name=".Wednesday"
+            android:label="@string/title_activity_wednesday" >
+        </activity>
+        <activity
+            android:name=".Thursday"
+            android:label="@string/title_activity_thursday" >
+        </activity>
+        <activity
+            android:name=".Friday"
+            android:label="@string/title_activity_friday" >
+        </activity>
+    </application>
+
+</manifest>

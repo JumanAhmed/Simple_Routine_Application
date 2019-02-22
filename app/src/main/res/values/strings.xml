@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Routine</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sat">Sat</string>
+    <string name="title_activity_add_routine">AddRoutine</string>
+    <string name="title_activity_week">Week</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sunday">Sunday</string>
+    <string name="title_activity_monday">Monday</string>
+    <string name="title_activity_tuesday">Tuesday</string>
+    <string name="title_activity_wednesday">Wednesday</string>
+    <string name="title_activity_thursday">Thursday</string>
+    <string name="title_activity_friday">Friday</string>
+</resources>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_marginBottom="2dp"
+     android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EC525A"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email"
+            android:background="@drawable/design"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="16dp"
+
+            android:id="@+id/tvclass" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Phone"
+
+            android:textSize="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+           android:gravity="center"
+            android:id="@+id/tvTime" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EC525A"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dip"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Email"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:paddingLeft="5dp"
+            android:textSize="16dp"
+            android:layout_weight="1.5"
+            android:id="@+id/tvroom" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dip"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Phone"
+            android:background="@android:color/holo_purple"
+            android:textSize="16dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:id="@+id/tvfeculty" />
+    </LinearLayout>
+
+</LinearLayout>
